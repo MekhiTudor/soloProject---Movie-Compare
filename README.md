@@ -213,9 +213,9 @@ Something new is that the fixed height of the movies display container needs a `
 - [x] Clicking the form submit button does not reload the page because the default behavior is prevented
 - [x] Clicking the form submit button creates a new movie in the movies section
 - [x] Clicking the form submit button clears the form
-- [ ] When a movie is added, all charts are rerendered to show the new movie
+- [x] When a movie is added, all charts are rerendered to show the new movie
 - [ ] At least one chart has a modified tooltip display
-- [ ] Clicking the reset button removes all user added movies and resets the movies to the default list
+- [x] Clicking the reset button removes all user added movies and resets the movies to the default list
 - [x] The movies are saved to localStorage
 - [x] The movies are loaded from localStorage on page load
 
@@ -223,9 +223,9 @@ Something new is that the fixed height of the movies display container needs a `
 
 - [x] The project is created using Vite
 - [x] The code exists in more than one JS file
-- [ ] The project is deployed via GitHub Pages properly
+- [x] The project is deployed via GitHub Pages properly
 - [x] The `movie-data.json` file is read properly
 - [ ] css flexbox or grid was used
-- [ ] The code does not render unescaped text directly to the DOM (`createElement`` or other escape method used)
+- [x] The code does not render unescaped text directly to the DOM (`createElement`` or other escape method used)
 - [x] `.innerHTML` or `createElement/.append` is used properly at some point in the project
 - [ ] `.innerHTML` or `.remove()` is used to delete elements from the DOM.
