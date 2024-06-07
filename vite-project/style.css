@@ -1,0 +1,136 @@
+* {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#sectionOne {
+  display: flex;
+}
+
+#movie-container {
+  display: grid;
+  /* grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr; */
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-top: 10%;
+}
+
+#the-form {
+  display: flex;
+  padding-top: 10%;
+}
+/*  */
+#movie-list {
+  display: grid;
+  gap: 20px;
+  max-height: 30rem;
+  grid-auto-flow: row;
+  grid-auto-rows: 10rem;
+  grid-template-columns: 12rem 12rem 12rem 12rem 12rem;
+  grid-template-rows: min-content min-content min-content min-content min-content min-content min-content min-content;
+  overflow-y: scroll;
+  overscroll-behavior-inline: contain;
+  padding: 30px 30px 20px 30px;
+  border-color: white;
+  border-style: solid;
+  border-width: 2px;
+  background-color: rgb(74, 74, 74);
+  width: min-content;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: rgb(95, 95, 95);
+}
+
+.caption-text,
+.title-text {
+  color: white;
+  padding-left: 10px;
+}
+.caption-text {
+  font-size: small;
+}
+
+.title-text {
+  padding-bottom: 10px;
+}
+
+.movie-card {
+  background-color: rgb(48, 47, 47);
+}
+#sectionOne {
+  background-color: rgb(48, 47, 47);
+}
+
+#bar-chart {
+  background-color: rgb(95, 95, 95);
+}
+#doughnut-chart {
+  background-color: rgb(48, 47, 47);
+}
+#scatter-chart {
+  background-color: rgb(95, 95, 95);
+}
+
+#movie-form {
+  color: white;
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+  height: min-content;
+}
+h2,
+h1 {
+  color: white;
+}
+h1 {
+  background-color: rgb(48, 47, 47);
+}
+
+.movie-card {
+  width: 13rem;
+  height: 8rem;
+}
+#reset-button {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+#reset {
+  width: 10rem;
+  height: 2rem;
+  background-color: rgb(13, 13, 13);
+  border: solid 1px white;
+  color: white;
+}
+#myBarChart {
+  margin: auto;
+  width: 50%;
+  border: 3px solid;
+  background-color: rgb(214, 214, 214);
+  padding: 10px;
+}
+
+#myDoughChart {
+  margin: auto;
+  width: 50%;
+  border: 3px solid;
+  background-color: rgb(214, 214, 214);
+  padding: 10px;
+}
+
+#myScatterChart {
+  margin: auto;
+  width: 50%;
+  border: 3px solid;
+  background-color: rgb(214, 214, 214);
+  padding: 10px;
+}
